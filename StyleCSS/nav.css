@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Amiri", serif;
+}
+
+/* ************************header************************ */
+
+.s-header{
+    
+    height: 70vh;
+    /* display: flex; */
+    /* background-image: url(OIP\ \(1\).jpg); */
+    background-size: cover;
+    margin-top: 1px;
+    position: relative;
+
+}
+
+
+.s-head-desc{
+
+    /* background-color: blue; */
+    width: 60%;
+    margin: auto;
+   
+    text-align: center;
+    /* padding: 250px; */
+    position: absolute;
+    top: 60%;  right: 20%;
+
+}
+.s-head-desc input{
+
+    height: 50px;
+    width: 600px;
+    text-align: center;
+}
+
+/* *****************************nav bar******************************** */
+.s-navbar{
+    background-color: white;
+    overflow: auto;
+    width: 100%;
+    
+}
+
+.s-logo{
+    float: right;
+    
+  
+}
+.s-logo img{
+  
+    width: 200px;
+    margin-top: 20px;
+}
+
+.s-navbar ul {
+    /* background-color: brown; */
+    float:right;
+    list-style: none;
+    margin-right: 250px;
+    
+    
+}
+.s-navbar ul li {
+     
+    display: inline-block;
+    padding: 20px;
+    padding-top: 50px;
+   
+    
+    
+    
+}
+.s-navbar ul li a{
+     
+    text-decoration: none;
+    color: black;
+    
+    
+}
+
+
+.s-icon{
+    
+    float: left;
+    margin: 8px;
+    cursor: pointer;
+}
+
+.s-icon i{
+    padding: 10px;
+    
+}
+
+.clearfix{
+    clear: both;
+}
+
+.s-contaner{
+    /* background-color: chartreuse; */
+    width: 80%;
+    margin: auto;
+}

@@ -1,0 +1,141 @@
+.m-footer{
+  margin-top: 30px;
+}
+.m-heading h2{
+    padding-top: 20px;
+    
+}
+.m-site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.m-site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.m-site-footer hr.m-small
+{
+  margin:20px 0
+}
+.m-site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px;
+  right: 0;
+}
+.m-site-footer a
+{
+  color:#737373;
+}
+.m-site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.m-footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.m-footer-links li
+{
+  display:block
+}
+.m-footer-links a
+{
+  color:#737373
+}
+.m-footer-links a:active,.m-footer-links a:focus,.m-footer-links a:hover
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .m-footer {
+    background-color: #226699;
+    color: #fefefe;
+    
+    width: 100%;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .m-footer .m-heading {
+    color: #fefefe;
+    max-width: 1010px;
+    width: 90%;
+    text-transform: uppercase;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  
+  .m-footer .m-content {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1.5rem;
+  }
+  
+  .m-footer .m-content p {
+    margin-bottom: 1.3rem;
+  }
+  
+  .m-footer .m-content a {
+    text-decoration: none;
+    color: #fefefe;
+  }
+  
+  .m-footer .m-content a:hover {
+    border-bottom: 1px solid #971717;
+  }
+  
+  .m-footer .m-content h4 {
+    margin-bottom: 1.3rem;
+    font-size: 19px;
+  }
+  
+  footer {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  footer hr {
+    margin: 2rem 0;
+  }
+  
+  @media (max-width: 767px) {
+    .m-footer .m-content {
+      display: flex;
+      flex-direction: column;
+      font-size: 14px;
+    }
+  
+    .m-footer {
+      position: unset;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .m-footer .m-content,
+    .m-footer {
+      font-size: 14px;
+    }
+  }
+  
+  @media (orientation: landscape) and (max-height: 500px) {
+    .m-footer {
+      position: unset;
+    }
+  }
+  .m-content p, .m-content h4 {
+    text-align: right;
+}

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+    <link rel="stylesheet" href="../StyleCSS/LogInCSS.css">
+    <link
+    href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
+    rel="stylesheet"
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=EB+Garamond:ital@1&family=Great+Vibes&family=Poiret+One&family=Varela+Round&family=Work+Sans:wght@200;300;400&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="../StyleCSS/nav.css" />
+  <link rel="stylesheet" href="../StyleCSS/FooterCSS.css">
+  <link rel="stylesheet" href="../StyleCSS/LogInCSS.css">
+</head>
+<body>
+    
+   <!-- -----------------------header section--------------------------- -->
+ <div class="s-header">
+  <!-- -----------------------nav bar---------------------------- -->
+  <div class="s-navbar">
+    <div class="s-contaner">
+      <div class="s-logo">
+        <img src="images/re_book logo.png" alt="" />
+      </div>
+
+      <div class="s-content">
+        <ul>
+          <li><a href="../Pages/Index.html"> الرئيسية</a></li>
+          <li>
+            <i class="fa fa-chevron-circle-down" aria-hidden="true"
+              ><a href="../Pages/Categories.html"> الاقسام</a></i >
+          </li>
+          <li><a href="../Pages/LogIn.html"> تسجيل دخول</a></li>
+          <li><a href="../Pages/SignUp.html"> تسجيل حساب</a></li>
+          <li><a href="../Pages/Cart.html"> العربة</a></li>
+          <li><a href="../Pages/ContactUs.html"> تواصل معنا</a></li>
+
+        </ul>
+      </div>
+
+      <div class="s-icon">
+        <i class="fa fa-bookmark-o" aria-hidden="true"> <a href="#"></a></i>
+        <i class="fa fa-user" aria-hidden="true"><a href="#"></a></i>
+        <i class="fa fa-search" aria-hidden="true"><a href="#"></a></i>
+      </div>
+
+      <div class="clearfix"></div>
+    </div>
+  </div>
+
+  <div class="sige-up-form">
+    <h1>سجل الدخول الان</h1>
+  
+    <form>
+      <input type="email" id="email" class="input-box" placeholder="Your Email" />
+      <input type="password" id="password" class="input-box" placeholder="Your Password" />
+  
+      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px" />
+      <p>
+        <span><input type="checkbox" /></span>أنا أوافق على شروط الخدمات
+      </p>
+      <button type="button" class="sigeup-btn" onclick="login()">تسجيل دخول</button>
+      <hr>
+      <p class="or">او</p>
+      <button type="button" class="facebook-btn">facebook سجل الدخول عن طريق </button>
+      <p>ليس لديك حساب ? <a href="#">تسجيل حساب</a></p>
+    </form>
+  </div>
+
+  <!-- footer -->
+   <!-- <div class="m-footer">
+      <div class="m-heading">
+        <h2>Re-Book</h2>
+      </div>
+      <div class="m-content">
+        <div class="m-services">
+          <h4>السياسات</h4>
+          <p><a href="#">سياسة المرتجعات</a></p>
+          <p><a href="#">سياسة الخصوصية</a></p>
+          <p><a href="../Pages/ContactUs.html">تواصل معنا</a></p>
+        </div>
+        <div class="m-social-media">
+          <h4>التواصل الاجتماعي</h4>
+          <p>
+            <a href="#"
+              ><i class="fa fa-linkedin"></i> Linkedin</a
+            >
+          </p>
+          <p>
+            <a href="#"
+              ><i class="fa fa-twitter"></i> Twitter</a
+            >
+          </p>
+          <p>
+            <a href="https://github.com"
+              ><i class="fa fa-github"></i> Github</a
+            >
+          </p>
+          <p>
+            <a href="https://www.facebook.com"
+              ><i class="fa fa-facebook"></i> Facebook</a
+            >
+          </p>
+          <p>
+            <a href="https://www.instagram.com"
+              ><i class="fa fa-instagram"></i> Instagram</a
+            >
+          </p>
+        </div>
+        <div class="m-links">
+          <h4>روابط سريعة</h4>
+          <p><a href="../Pages/Index.html">الصفحة الرئيسية</a></p>
+          <p><a href="../Pages/Categories.html">اقسام الكتب</a></p>
+          <p><a href="../Pages/Cart.html">العربة</a></p>
+          <p><a href="../Pages/LogIn.html">تسجيل دخول</a></p>
+          <p><a href="../Pages/SignUp.html">تسجيل حساب</a></p>
+
+        </div>
+        <div class="m-details">
+          <h4 class="m-address">نحن</h4>
+          <p>
+            نحب ان نكون اصدقاء للبيئة <br />
+            فكون صديقا لها معنا عن طريق بيع كتبك المستعملة!
+          </p>
+          <h4 class="m-mobile">الهاتف</h4>
+          <p><a href="#">+201064846018</a></p>
+          <h4 class="m-mail">Email</h4>
+          <p><a href="#">ReBook@gmail.com</a></p>
+        </div>
+      </div>
+      <footer>
+        <hr />
+        © 2024 Re-book Team.
+        <br>
+          <br>
+          <br>
+      </footer> -->
+    </div>
+    <script>
+      function login() {
+        var email = document.getElementById("email").value;
+        var password = document.getElementById("password").value;
+        
+        // Perform validation and display results in the console
+        if (email === "") {
+          console.log("Please enter your email.");
+          return;
+        }
+        
+        if (password === "") {
+          console.log("Please enter your password.");
+          return;
+        }
+        
+        if (password.length < 8) {
+          console.log("Password must be at least 8 characters long.");
+          return;
+        }
+        
+        if (email.length > 20) {
+          console.log("Email must not exceed 20 characters.");
+          return;
+        }
+        
+        console.log("Email: " + email);
+        console.log("Password: " + password);
+      }
+    </script>
+</body>
+</html>
